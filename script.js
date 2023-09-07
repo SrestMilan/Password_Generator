@@ -26,4 +26,8 @@ let generatePassword=()=>{
     passwordInput.value=password; // value fetch in password inputfield
 }
 
-
+// feature of copyPassword
+let copyPassword=()=>{
+    passwordInput.select();
+    document.execCommand("copy");
+}
