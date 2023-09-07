@@ -3,8 +3,8 @@ const passwordLength=12;   // assigning password length
 
 const upperCaseLetter="ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // storing uppercase letter
 const lowerCaseLetter="abcdefghijklmnopqrstuvwxyz" // storing lowercase letter
-const number="0123456789";
-const symbol="!@#$%^&*?)(|:+";
+const number="0123456789"; // storing number
+const symbol="!@#$%^&*?)(|:+";  // storing several symbols
 
 
 const allCharacter=`${upperCaseLetter}${lowerCaseLetter}${number}${symbol}`
