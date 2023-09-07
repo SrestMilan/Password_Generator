@@ -1,3 +1,5 @@
+'use strict';
+
 const passwordInput=document.getElementById("password"); // getting html element by their id using document object
 const passwordLength=12;   // assigning password length
 
